@@ -1,0 +1,45 @@
+/*
+* LESS Variables are defined with an @ character
+* and can have different kinds of data types:
+* color, string, boolean, multi­value
+*/
+.commonRules {
+  border: 2px solid #000000;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+header {
+  border: 2px solid #000000;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+header h1 {
+  color: #0000ff;
+  font-size: 34px;
+}
+header h1:after {
+  content: " with LESS";
+}
+.container {
+  padding: 15px 35px;
+}
+.container p {
+  font-size: 24px;
+}
+footer {
+  border: 2px solid #000000;
+  text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}

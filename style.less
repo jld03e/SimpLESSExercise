@@ -24,3 +24,33 @@
   border-radius: @radius;
 }
 
+.commonRules {
+  border: @border;
+  text-align:center;
+  .radius(10px);
+}
+
+header {
+  .commonRules;
+
+  h1 {
+    color: @color2;
+    font-size:@fontSize+10;
+
+    &:after {
+      content: @stringVar;
+    }
+  }
+}
+
+.container {
+  padding: @padding @padding+20;
+
+  p {
+    font-size: @fontSize;
+  }
+}
+
+footer {
+  .commonRules;
+}
